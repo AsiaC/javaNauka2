@@ -9,7 +9,7 @@ package kolos2;
  *
  * @author Asia
  */
-public abstract class K1 {
+public abstract class K1  {
     //abstract int metoda1(int i);
     int metada2(int a){return 1;} //w klasie abstrakcyjnej może nie być mtod abstrakcyjnych wcale
     

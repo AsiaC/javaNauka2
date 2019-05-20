@@ -9,15 +9,6 @@ package kolos2;
  *
  * @author Asia
  */
-public class Kolos2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        X1 [] xList={
-        new Klasa1(),
-        new KlasaKlasa1()};
-    }
-    
+public interface Y1 extends X1{
+    void y();
 }
