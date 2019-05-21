@@ -5,6 +5,8 @@
  */
 package kolos2;
 
+import static kolos2.I.m2;
+
 /**
  *
  * @author Asia
@@ -15,9 +17,23 @@ public class Kolos2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       /*
         X1 [] xList={
         new Klasa1(),
         new KlasaKlasa1()};
+        */
+        KlasaIJ a=new KlasaIJ();
+        System.out.println("metoda m: ");
+        a.m();
+        System.out.println("");
+        System.out.println("metoda m3: ");
+        a.m3();
+        System.out.println("");
+        System.out.println("zmienna statyczna:");
+        System.out.println(KlasaIJ.CONST_VALUE);
+        System.out.println("");
+        System.out.println("metoda m2: ");
+        m2();
     }
     
 }
