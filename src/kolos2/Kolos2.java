@@ -22,6 +22,7 @@ public class Kolos2 {
         new Klasa1(),
         new KlasaKlasa1()};
         */
+        /*
         KlasaIJ a=new KlasaIJ();
         System.out.println("metoda m: ");
         a.m();
@@ -34,6 +35,13 @@ public class Kolos2 {
         System.out.println("");
         System.out.println("metoda m2: ");
         m2();
+                */
+        W2 b=new W2();
+        b.m();
+        
+        KKK2 c=new KKK2();
+        c.m();
+                
     }
     
 }
