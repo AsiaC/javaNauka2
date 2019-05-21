@@ -9,12 +9,12 @@ package kolos2;
  *
  * @author Asia
  */
-public class KlasaIJ implements J{
+public class Box<T>{
+    private T item;
+    void set (T item)
+    {this.item=item;}
+    T get()
+    {return item;}
+    
 
-    @Override
-    public int m() {
-        System.out.println("to jest  metoda m");
-        return 1;
-    }
-   
 }

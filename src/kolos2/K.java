@@ -26,4 +26,5 @@ class K implements Serializable, Comparable{
         return a*b;
     }
     //abstract int metoda4(int a); //nie może być w klasie, która nie jest abstrakcyjna
+
 }
